@@ -4,6 +4,8 @@ Version 2.6.0
 * New TransportInterface and NetworkFactory API to allow updating the network interfaces at runtime (ABI breaks on RPTS
   and transport layers)
 * Removed dll export for constructors and destructors of factory created entities (breaks ABI)
+* Add physical information in DATA[p] using properties
+* Extension of `DISCOVERY_TOPIC` to include physical information about the discovered entity (ABI break)
 
 Version 2.5.0
 -------------
